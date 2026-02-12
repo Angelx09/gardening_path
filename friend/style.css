@@ -1,0 +1,78 @@
+body{
+  margin:0;
+  min-height:100vh; 
+  background: linear-gradient(to bottom,#003b00,#00ff3c);
+  font-family: monospace;
+  color:white;
+  font-size: 2em;
+}
+.text-friend{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:500px;
+  margin:0 auto;
+  padding-top:120px;
+}
+.text-friend p{
+  width:420px;
+  line-height:1.4;
+  margin:120px auto;
+  opacity:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.opp{
+  margin-left: 6px;
+  color:white;
+  position: relative;
+  display: inline-block;
+}
+
+
+.opp:hover{
+  color: transparent;
+}
+
+.opp:hover::after{
+  content: "enemy..";
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+
+/*circle button*/
+.circle-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  width:80px;
+  height:80px;
+  margin:120px auto; 
+
+  border-radius:50%;
+  border:2px solid white;
+
+  text-decoration:none;
+  color:white;
+  font-size:28px;
+
+  transition:0.3s ease;
+}
+
+
+.circle-button:hover{
+  background:#00ff66;
+  color:#f3c304;
+  transform:scale(1.1);
+}
+
+.next-circle.active{
+  background:#f3c304;     
+  color:#003b00;
+  transform:scale(1.1);
+}

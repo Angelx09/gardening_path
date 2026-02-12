@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  min-height:300vh; 
+  background: linear-gradient(to bottom,#ffca0a,#e7df85);
+  font-family: monospace;
+  color:white;
+  font-size: 2em;
+}
+.text-innumberable{
+    width:500px;
+    margin:0 auto;
+    padding-top:120px;
+}
+.text-innumberable p{
+    width:420px;
+    line-height:1.4;
+    margin:120px auto;
+    opacity:1;
+    letter-spacing: 30px;
+    line-height: 40px;
+}
+
+.bold{
+  color: black;
+}
+
+/*circle button*/
+.circle-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  width:80px;
+  height:80px;
+  margin:120px auto; 
+
+  border-radius:50%;
+  border:2px solid white;
+
+  text-decoration:none;
+  color:white;
+  font-size:28px;
+
+  transition:0.3s ease;
+}
+.circle-button:hover{
+  background:#ff0000;
+  color:#ffffff;
+  transform:scale(1.1);
+}
+
+.next-circle.active{
+  background:#ff0000;     
+  color:#ffffff;
+  transform:scale(1.1);
+}

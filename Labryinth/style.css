@@ -1,0 +1,61 @@
+body{
+  margin:0;
+  min-height:100vh; 
+  background: linear-gradient(to bottom,#ff0a0a,#e78585);
+  font-family: monospace;
+  color:white;
+  font-size: 2em;
+}
+.text-Labryinth{
+    width:100%;
+    padding:5w;
+    box-sizing: border-box;
+}
+.text-Labryinth p{
+    margin:0;
+    line-height: 1.2;
+    font-size: 5vw;
+}
+.change{
+  margin:0;
+  line-height: 1.2;
+  font-size:6vw;
+  color: white;
+}
+.change:hover{
+  font-size: 30px;
+  text-decoration: underline;
+  color:black;
+}
+
+/*circle button*/
+.circle-button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  width:80px;
+  height:80px;
+  margin:120px auto; 
+
+  border-radius:50%;
+  border:2px solid white;
+
+  text-decoration:none;
+  color:white;
+  font-size:28px;
+
+  transition:0.3s ease;
+}
+.circle-button:hover{
+  background:#00ff66;
+  color:#f3c304;
+  transform:scale(1.1);
+}
+
+.next-circle.active{
+  background:#f3c304;     
+  color:#003b00;
+  transform:scale(1.5);
+}
+
