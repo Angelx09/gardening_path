@@ -1,0 +1,80 @@
+
+body{
+  background-color: rgb(0, 0, 0);
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:rgb(255, 255, 255);
+  overflow:hidden;
+  position:relative;
+  padding-top:12vh;
+}
+h1{ font-size:64px; left:-120px; }
+h2{ font-size:48px; left:90px; }
+h3{ font-size:36px; left:-70px; }
+h4{ font-size:26px; left:60px; }
+h5{ font-size:18px; left:-40px; }
+
+h1,h2,h3,h4,h5{
+  position: relative;
+  margin:6px 0;
+  text-align:center;
+  z-index:2;
+}
+.home{
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;   
+  text-align: center;
+}
+.zigzag h1,
+.zigzag h2,
+.zigzag h3,
+.zigzag h4,
+.zigzag h5{
+  position: relative;
+  margin:6px 0;
+}
+.zigzag h1{ font-size:55px; left:-80px; }
+.zigzag h2{ font-size:48px; left:80px; }
+.zigzag h3{ font-size:36px; left:-60px; }
+.zigzag h4{ font-size:26px; left:60px; }
+.zigzag h5{ font-size:18px; left:-40px; }
+
+.floating{
+  position:absolute;
+  opacity:0;
+  font-size:20px;
+  pointer-events:auto;
+  color:rgb(146, 142, 137);
+  text-decoration: none;
+  animation: fadeSoft 10s infinite ease-in-out;
+  cursor: pointer;
+}
+.floating:hover{
+  color:rgb(255, 255, 255);
+}
+
+.w1{ top:10%; left:20%; animation-duration:8s; }
+.w2{ top:25%; left:75%; animation-duration:12s; }
+.w3{ top:70%; left:15%; animation-duration:9s; }
+.w4{ top:50%; left:85%; animation-duration:11s; }
+.w5{ top:80%; left:60%; animation-duration:7s; }
+.w7{ top:15%; left:55%; animation-duration:10s; }
+.w8{ top:65%; left:80%; animation-duration:14s; }
+.w9{ top:45%; left:5%;  animation-duration:9.5s; }
+.w10{ top:75%; left:35%;animation-duration:12.5s; }
+.w11{ top:5%; left:90%; animation-duration:8.5s; }
+
+
+@keyframes fadeSoft{
+
+  0%   { opacity:0; transform:translateY(10px); }
+  20%  { opacity:1; }
+  50%  { opacity:0.6; }
+  80%  { opacity:0.2; }
+  100% { opacity:0; transform:translateY(-10px); }
+}
