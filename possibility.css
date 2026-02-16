@@ -17,7 +17,7 @@ body{
 
 .change{
   color: #000000;
-  text-decoration:none;
+  text-decoration:underline;
   transition:0.3s;
 }
 

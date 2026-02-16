@@ -16,6 +16,10 @@ body{
 }
 .big {
   cursor: pointer;
+  text-decoration: underline;
+}
+.big:hover{
+  color: #000000;
 }
 
 #explosion-container {
