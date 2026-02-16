@@ -23,6 +23,11 @@ body{
 .bold{
   color: black;
 }
+.time{
+  color: black;
+  text-decoration:none;
+  transition:0.3s;
+}
 
 /*circle button*/
 .circle-button{
