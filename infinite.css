@@ -1,6 +1,6 @@
 body{
   margin:0;
-  min-height:300vh; 
+  min-height:100vh; 
   background: linear-gradient(to bottom,#003b00,#00ff3c);
   font-family: monospace;
   color:white;
@@ -10,9 +10,9 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  width:500px;
+  width:730px;
   margin:0 auto;
-  padding-top:120px;
+  padding-top:320px;
 }
 .big {
   cursor: pointer;
