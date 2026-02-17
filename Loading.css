@@ -68,7 +68,11 @@ body{
 .bold{
   color: black;
 }
-
+.time{
+  color: black;
+  text-decoration:underline;
+  transition:0.3s;
+}
 
 /*circle button*/
 .circle-button{
