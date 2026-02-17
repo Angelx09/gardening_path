@@ -10,6 +10,8 @@ body{
     width:100%;
     padding:5w;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 .text-Labryinth p{
     margin:0;
